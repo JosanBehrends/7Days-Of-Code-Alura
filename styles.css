@@ -1,0 +1,28 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/indicadores.css");
+@import url("styles/vagas.css");
+@import url("styles/feedback.css");
+@import url("styles/footer.css");
+
+:root {
+    --cor-de-fundo: #ffffff;
+    --cinza-escuro: #3A404E;
+    --cinza-claro: #667085;
+    --cinza-rodape: #98A2B3;
+    --cinza-branco: #D0D5DD;
+    --vermelho-escuro: #8E2424;
+    --vermelho-claro: #faf6f7;
+    --azul-escuro: #101828;
+    --branco-escuro: #EAECF0;
+    --branco-claro:#F9FAFB;
+    --fonte-principal: "Inter";
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza-claro);
+}

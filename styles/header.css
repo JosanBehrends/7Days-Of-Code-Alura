@@ -1,0 +1,48 @@
+.cabeçalho {
+    height: 80px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 20% 50% 30%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 1.75em 6em;
+}
+
+.container__titulo {
+    font-size: 18px;
+    padding: 0 0.5em;
+    color: var(--cinza-escuro);
+}
+
+.lista-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+.lista-menu__titulo {
+    padding-right: 2em;
+}
+
+.botoes {
+    margin-right: 6em;
+    justify-content: end;
+}
+
+.container__link, .botao__cadastrar {
+    text-decoration: none;
+    color: var();
+}
+
+.botao__cadastrar {
+    background-color: var(--vermelho-escuro);
+    padding: 10px 18px;
+    border-radius: 10px;
+    color: var(--cor-de-fundo);
+    margin-left: 3em;
+}

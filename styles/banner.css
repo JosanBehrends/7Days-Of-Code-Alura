@@ -1,0 +1,21 @@
+.banner {
+    text-align: center;
+    margin: 8em 20em;
+}
+
+.banner__sobre {
+    color: var(--vermelho-escuro);
+    font-weight: 600;
+}
+
+.banner__titulo {
+    padding: 0.5em 0 0.7em 0;
+    color: var(--azul-escuro);
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.banner__conteudo {
+    font-size: 20px;
+    font-weight: 400;
+}

@@ -1,0 +1,32 @@
+.indicadores {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 5em 5em 6em;
+}
+
+.container__indicadores{
+    width: 280px;
+    height: 168px;
+    margin: 0 1em 1em 1em;
+}
+
+.indicador__dado {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho-escuro);
+}
+
+.indicador__titulo {
+    margin: 0.7em 0 0.5em 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--azul-escuro);
+}
+
+.container__vagas {
+    margin: 4em 0;
+    text-align: left;
+}
+
+
